@@ -6,7 +6,7 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 " git clone https://github.com/VundleVim/Vundle.vim.git  ~/.vim/bundle/Vundle.vim
-Bundle 'altercation/vim-colors-solarized'
+" Bundle 'altercation/vim-colors-solarized'
 Bundle 'scrooloose/syntastic'
 Bundle 'scrooloose/nerdtree'
 Bundle 'Valloric/YouCompleteMe'
@@ -33,7 +33,7 @@ set nofoldenable
 "颜色
 syntax enable
 set background=dark
-colorscheme solarized
+" colorscheme solarized
 
 "Syntastic
 set statusline+=%#warningmsg#
